@@ -3,6 +3,22 @@
      include './includes/header.php';
 ?>
 
+<?php
+  // connect to mongodb
+
+  //$m = new MongoClient("mongodb+srv://BasseliT:Hyba85213*Test@cluster0-9eamb.mongodb.net/test?retryWrites=true&w=majority" );
+ 
+  require_once __DIR__ . "/vendor/autoload.php";
+
+  
+$client = new MongoDB\Client('mongodb+srv://BasseliT:Hyba85213*Tes@cluster0-9eamb.mongodb.net/<dbname>?retryWrites=true&w=majority');
+ 
+ $db = $client->test;
+ echo "connect to mongodb";
+
+echo phpinfo();
+ 
+?>
 
 <!-- index -->
     <!-- Basic Html -->
