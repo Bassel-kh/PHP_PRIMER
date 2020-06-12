@@ -15,6 +15,7 @@
             case 'B':
                 # code...
                 echo '<h2 style= "color: blue"> You did well !</h2>'; 
+                
                
                 break;
             default:
