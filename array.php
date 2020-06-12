@@ -1,6 +1,6 @@
 <?php 
      $title = 'Arrays';
-     include 'includes/header.php'
+     include 'includes/header.php';
 ?>
     <h1>Arrays</h1>
     <?php
@@ -17,4 +17,4 @@
             echo "<p>$numbers[$i]</p>";
         }
     ?>
-<?php require 'includes/footer.php'?>
+<?php require 'includes/footer.php';?>

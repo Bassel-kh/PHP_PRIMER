@@ -1,6 +1,6 @@
 <?php 
      $title = 'Date and Time Manipulation';
-     include 'includes/header.php'
+     include 'includes/header.php';
 ?>
     <h1>Date and Time Manipulation</h1>
 
@@ -18,4 +18,4 @@
         print "Today is ";
         print date("j of F Y, \a\\t g.i a", time());
     ?>
-<?php require 'includes/footer.php'?>
+<?php require 'includes/footer.php';?>

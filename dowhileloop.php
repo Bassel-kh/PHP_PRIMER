@@ -1,6 +1,6 @@
 <?php 
     $title = "While loop";
-    include 'includes/header.php'
+    include 'includes/header.php';
 ?>
     <h1>While loop</h1>
     <?php
@@ -29,4 +29,4 @@
         echo 'Exite Loop';
     ?>
 
-<?php require 'includes/footer.php'?>
+<?php require 'includes/footer.php';?>

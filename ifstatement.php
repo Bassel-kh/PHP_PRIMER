@@ -1,6 +1,6 @@
 <?php 
     $title = "Function ";
-    include 'includes/header.php'
+    include 'includes/header.php';
 ?>
         <h1>IF-Else Statement</h1>
      <?php 
@@ -29,4 +29,4 @@
             }
 
      ?>
-<?php require 'includes/footer.php'?>
+<?php require 'includes/footer.php';?>

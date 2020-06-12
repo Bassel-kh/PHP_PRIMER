@@ -1,6 +1,6 @@
 <?php 
     $title = "String Manipulation ";
-    include 'includes/header.php'
+    include 'includes/header.php';
 ?>
 <h1>PHP String Manipulation</h1>
     <?php
@@ -35,4 +35,4 @@
         echo ' Replace string with another: '. str_replace("stand", "sit", $phrase2 ) . '<br>';
 
     ?>
-<?php require 'includes/footer.php'?>
+<?php require 'includes/footer.php';?>
